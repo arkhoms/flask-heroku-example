@@ -8,8 +8,8 @@ app = Flask(__name__)
 def index():
     """Return homepage."""
     json_data = {'Hello': 'World!'}
-    return jsonify(json_data)
-
+#    return jsonify(json_data)
+    return print("สวัสดี")
 
 if __name__ == '__main__':
     app.run()
